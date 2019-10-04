@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.card-container{
+    width: 640px;
+    height:413px;
+    border: 1px solid #74747474;
+    border-radius: 20px;
+    background-image: url("https://ak7.picdn.net/shutterstock/videos/5930207/thumb/1.jpg");
+    background-size: cover;
+    padding:20px;
+}
+
+.title{
+    font-size: 60px;
+    padding-left: 240px;
+    color: white;
+    margin: 0px;
+}
+.Number-card{
+    color: rgb(172, 136, 58);
+    background-color: rgba(204, 236, 143, 0.425);
+    padding: 2px;
+    font-size: 35px;
+    margin: 25px;
+  
+}
+
+.Puce{
+    width: 100px;
+    padding-left: 40px;
+}
+.master{
+    width: 110px;
+    height: 150px;
+    padding-top: 65px;
+}
+.info-card{
+    display: flex;
+    justify-content: space-around;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 20px;
+    margin: 25px;
+}
+.date{
+    display:flex;
+}
+.month{
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.year{
+    padding-left: 95px;
+}
+.year-number{
+    font-size: 40px
+}
+.input{
+    padding: 10px;
+    margin: 15px;
+
+}
